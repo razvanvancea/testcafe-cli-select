@@ -1,0 +1,34 @@
+{
+	"name": "testcafe-cli-select",
+	"version": "1.3.4",
+	"main": "testcafe-cli-select.js",
+	"scripts": {
+		"prettier:check": "npx prettier --check .",
+		"prettier:fix": "npx prettier --write ."
+	},
+	"keywords": [
+		"cli",
+		"testcafe"
+	],
+	"author": "Razvan Vancea",
+	"license": "MIT",
+	"description": "Testcafe interactive CLI prompts to select and run specs or tests",
+	"bin": {
+		"testcafe-cli-select": "index.js"
+	},
+	"devDependencies": {
+		"prettier": "^3.5.1"
+	},
+	"dependencies": {
+		"inquirer": "^12.4.2",
+		"minimist": "^1.2.8"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/razvanvancea/testcafe-cli-select.git"
+	},
+	"bugs": {
+		"url": "https://github.com/razvanvancea/testcafe-cli-select/issues"
+	},
+	"homepage": "https://github.com/razvanvancea/testcafe-cli-select#readme"
+}
